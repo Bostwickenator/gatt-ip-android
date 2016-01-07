@@ -261,7 +261,7 @@ public class BluetoothLEService extends InterfaceService {
             }
 
             // client characteristic configuration.
-            UUID descUUID = UUID.fromString(CCC_UUID);
+            UUID descUUID = UUID.fromString(Constants.kUUID_CLIENT_CHARACTERISTIC_CONFIG);
             BluetoothGattDescriptor desc = characteristic.getDescriptor(descUUID);
 
             // check whether characteristic having notify or indicate property
