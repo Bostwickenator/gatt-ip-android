@@ -137,4 +137,7 @@ public class Constants {
     public static final String kGAP_ADTYPE_COMPLETE_128BIT_SERVICEUUID      = "07";
     public static final String kGAP_ADTYPE_POWER_LEVEL                      = "0A";
     public static final String kGAP_ADTYPE_MANUFACTURER_SPECIFIC            = "FF";
+    
+    //GATT UUIDS
+    public static final String kUUID_CLIENT_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
 }
