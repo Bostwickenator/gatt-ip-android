@@ -92,7 +92,7 @@ public class Bluetooth_Service extends Service {
         }
 
         // client characteristic configuration.
-        UUID descUUID = UUID.fromString("00002902-0000-1000-8000-00805f9b34fb");
+        UUID descUUID = UUID.fromString(Constants.kUUID_CLIENT_CHARACTERISTIC_CONFIG);
         BluetoothGattDescriptor desc = characteristic.getDescriptor(descUUID);
 
         // check whether characteristic having notify or indicate property
