@@ -33,7 +33,6 @@ import java.util.UUID;
  * Created by vensi on 9/25/15.
  */
 public class BluetoothLEService extends InterfaceService {
-    public static final String CCC_UUID = "00002902-0000-1000-8000-00805f9b34fb";
     private static final String TAG = BluetoothLEService.class.getName();
 
     private List<BluetoothGatt> m_connected_devices;
